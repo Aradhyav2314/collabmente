@@ -1,0 +1,246 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>CollabMente | Home</title>
+<style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fffaf5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      scroll-behavior: smooth;
+    }
+    nav {
+      background-color: #fff3e9;
+      padding: 15px 20px;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      font-size: 16px;
+    }
+    nav a {
+      text-decoration: none;
+      color: #e46034;
+      font-weight: 600;
+    }
+    header {
+      background: linear-gradient(120deg, #fff3e9, #f08a5d);
+      padding: 80px 20px;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 32px;
+      color: #e46034;
+      margin-bottom: 15px;
+    }
+    header p {
+      font-size: 16px;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+    .cta-button {
+      background-color: #e46034;
+      color: white;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 8px;
+      display: inline-block;
+      margin-top: 25px;
+      font-weight: bold;
+    }
+    section {
+      padding: 60px 20px;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+    .section-alt {
+      background-color: #fff3e9;
+    }
+    h2 {
+      color: #e46034;
+      font-size: 26px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .content {
+      font-size: 16px;
+      line-height: 1.6;
+      text-align: center;
+    }
+    .brand-logos {
+      text-align: center;
+    }
+    .brand-logos img {
+      height: 50px;
+      margin: 10px 15px;
+      vertical-align: middle;
+    }
+    .section-wrap {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 30px;
+      margin-bottom: 50px;
+    }
+    .section-wrap img {
+      max-width: 300px;
+      border-radius: 12px;
+    }
+    .form-popup {
+      display: none;
+      position: fixed;
+      z-index: 9999;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border: 2px solid #e46034;
+      background-color: #fff;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .form-popup input, .form-popup textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+    }
+    .form-popup button {
+      background-color: #e46034;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .form-popup-close {
+      text-align: right;
+      margin-bottom: 10px;
+    }
+    footer {
+      background-color: #f08a5d;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+      font-size: 14px;
+    }
+  </style>
+<script>
+    function openForm() {
+      document.getElementById("creatorForm").style.display = "block";
+    }
+    function closeForm() {
+      document.getElementById("creatorForm").style.display = "none";
+    }
+  </script>
+</head>
+<body>
+<nav>
+<a href="#home">Home</a>
+<a href="#services">Services</a>
+<a href="#testimonials">Testimonials</a>
+<a href="#contact">Contact</a>
+<a href="blog.html">Blog</a><a href="about.html">About Us</a></nav>
+<header id="home">
+<h1>Where Mindful Marketing Meets Meaningful Influence</h1>
+<p>We help brands grow through UGC, creator collaborations, and result driven influencer marketing strategies.</p>
+<a class="cta-button" href="#contact">Let’s Collaborate</a>
+</header>
+<section id="what-is-collabmente" style="padding: 60px 20px;">
+<h2 style="text-align: center; color: #e65100;">What is CollabMente?</h2>
+<div style="max-width: 900px; margin: auto; padding: 0 15px; text-align: center;">
+<p style="font-size: 17px; line-height: 1.6; color: #333;">
+      CollabMente is a modern influencer marketing agency focused on helping brands connect with the right creators to tell impactful stories.
+      Whether you're a startup or a scaling brand, we help you stand out with influencer campaigns, UGC content, and social strategies that actually convert.
+    </p>
+</div>
+</section>
+<section class="section-alt">
+<h2>Brands We've Worked With</h2>
+<div class="brand-logos">
+<img alt="Mamaearth" src="https://via.placeholder.com/100x60?text=Mamaearth"/>
+<img alt="The Derma Co" src="https://via.placeholder.com/100x60?text=Derma+Co"/>
+<img alt="Khare App" src="https://via.placeholder.com/100x60?text=Khare+App"/>
+<img alt="Dostt App" src="https://via.placeholder.com/100x60?text=Dostt+App"/>
+</div>
+</section>
+<section id="services">
+<h2>Our Services</h2>
+<div class="section-wrap" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; padding: 40px 20px;"><div style="flex: 1; min-width: 300px;"><h3>Tailored Campaign Strategies</h3><p>We craft custom campaigns that resonate with your target audience and drive measurable growth.</p></div><div style="flex: 1; min-width: 280px;"><img src="9096DF51-FADF-445C-96D8-F189B333D394.jpeg"/></div></div>
+<div class="section-wrap" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; padding: 40px 20px;"><div style="flex: 1; min-width: 300px;"><h3>Influencer Matchmaking</h3><p>Get connected with the right influencers from our diverse network of 1 Lakh+ verified creators.</p></div><div style="flex: 1; min-width: 280px;"><img src="69EF285E-9127-4866-8DC6-62186A29BC2E.jpeg"/></div></div>
+<div class="section-wrap" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; padding: 40px 20px;"><div style="flex: 1; min-width: 300px;"><h3>Creative Concepts</h3><p>From scripting to editing, we design creative content that makes your brand stand out.</p></div><div style="flex: 1; min-width: 280px;"><img src="F18DF97F-D81B-4AED-A48C-8926B8C936DD.jpeg"/></div></div>
+<div class="section-wrap" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; padding: 40px 20px;"><div style="flex: 1; min-width: 300px;"><h3>Seamless Execution</h3><p>We manage everything from creator onboarding to delivery and feedback loops.</p></div><div style="flex: 1; min-width: 280px;"><img src="95619114-1D74-4591-A475-5C65D5F20E85.jpeg"/></div></div>
+<div class="section-wrap" style="display: flex; align-items: center; gap: 40px; flex-wrap: wrap; padding: 40px 20px;"><div style="flex: 1; min-width: 300px;"><h3>Analytics &amp; Impact</h3><p>We give you real time insights into performance so you can see the ROI of your collabs.</p></div><div style="flex: 1; min-width: 280px;"><img src="176A074C-3316-4C31-8A2E-AA12FCCBAC16.png"/></div></div>
+</section>
+<section class="section-alt" id="creators">
+<h2>Creators</h2>
+<div class="content">
+<img alt="Creators" src="A_2D_digital_illustration_for_CollabMente_features.png" style="max-width: 300px; margin-bottom: 20px;"/>
+<p>We work with over 1 Lakh creators across 28+ languages, from nano to mega influencers. These creators bring regional reach, authenticity, and powerful audience trust to every campaign. Join our growing creator community today!</p>
+<a class="cta-button" href="https://forms.gle/5s914r4gwzYcufCv9" target="_blank">Join Us Now as a Creator</a>
+</div>
+</section>
+<div class="form-popup" id="creatorForm">
+<div class="form-popup-close"><button onclick="closeForm()">X</button></div>
+<form>
+<input placeholder="Your Name" required="" type="text"/>
+<input placeholder="Email Address" required="" type="email"/>
+<input placeholder="Instagram Handle" required="" type="text"/>
+<textarea placeholder="Tell us a bit about your content..." rows="4"></textarea>
+<button type="submit">Submit</button>
+</form>
+</div>
+
+<section id="why-choose-us" style="padding: 60px 20px; background-color: #fff6ee;">
+<h2 style="text-align: center; color: #D65A00; font-size: 32px;">Why Choose Us</h2>
+<ul style="max-width: 800px; margin: auto; list-style: none; padding: 0; font-size: 18px; line-height: 1.6; color: #333;">
+<li>✓ GenZ-led team that understands modern trends</li>
+<li>✓ Verified creators: nano to mega across 28+ languages</li>
+<li>✓ Transparent reporting and smooth execution</li>
+<li>✓ Custom strategies with performance-driven results</li>
+<li>✓ Trusted by brands like Mamaearth, The Derma Co, and more</li>
+</ul>
+</section>
+<section id="testimonials">
+<h2>Testimonials</h2>
+<div class="content">
+<p>"Sure! It's been great working with you guys! Good and immediate response!"<br/>– Creator Feedback</p>
+<p>"It was great working with you. I didn't face any problem. The one who contacted me was very friendly."<br/>– Creator Feedback</p>
+<h3 style="margin-top: 40px;">Campaign Performance</h3>
+<p>Achieved 0.05 CPV – 5x better than average CPI benchmarks</p>
+<img alt="CPI Chart" src="collabmente_cpi_chart.png" style="max-width: 100%; border-radius: 8px;"/>
+</div>
+</section>
+
+<section class="section-alt" id="contact">
+<h2>Let’s Work Together</h2>
+<div class="content">
+<p>Want to scale your brand with creator content that actually performs? We’re just a ping away.</p>
+<div style="margin-top: 20px; display: flex; justify-content: center; gap: 30px;">
+<a href="https://www.instagram.com/collabmente?igsh=bzAzZ3B3eHFzMnlw&amp;utm_source=qr" target="_blank" title="Instagram">
+<img alt="Instagram" src="https://cdn-icons-png.flaticon.com/512/174/174855.png" style="height: 32px;"/>
+</a>
+<a href="mailto:collabmente@gmail.com" title="Email">
+<img alt="Email" src="https://cdn-icons-png.flaticon.com/512/732/732200.png" style="height: 32px;"/>
+</a>
+<a href="https://wa.me/918708384149" target="_blank" title="WhatsApp">
+<img alt="WhatsApp" src="https://cdn-icons-png.flaticon.com/512/733/733585.png" style="height: 32px;"/>
+</a>
+</div>
+</div>
+</section>
+<footer>
+  © 2025 CollabMente. All rights reserved.
+</footer>
+</body>
+</html>
